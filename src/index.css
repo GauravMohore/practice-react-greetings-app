@@ -1,5 +1,38 @@
-*{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-div {
+  background-color: antiquewhite;
+  color: hotpink;
+  display: flex;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.morningBG {
+  background-image: url("./images/morning_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.afternoonBG {
+  background-image: url("./images/afternoon_image.jpg");
+  color: rgb(237, 78, 99);
+}
+
+.eveningBG {
+  background-image: url("./images/evening_image.jpg");
+}
+
+.nightBG {
+  background-image: url("./images/night_image.jpg");
 }
