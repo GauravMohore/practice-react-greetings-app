@@ -24,7 +24,7 @@ if (currentHours >= 1 && currentHours < 12) {
 
 ReactDOM.render(
   <>
-    <div className="outer-div">
+    <div>
       <h1>
         Hello Sir, <span style={textColor}>{greetings}</span>
       </h1>
