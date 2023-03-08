@@ -1,5 +1,4 @@
 body {
-  background-color: aquamarine;
   box-sizing: border-box;
   margin: 0;
   padding: 0%;
@@ -13,14 +12,14 @@ div{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -30px;
 }
 
 h1{
  padding: 20px 20px;
  background-color: beige;
  color: #fa9191;
- border-radius:20px
+ border-radius:20px;
+ font-size: 70px;
 }
 
 span{
@@ -31,18 +30,26 @@ span{
   background-image: url("./images/morning_image.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
 }
 
 .afternoonBG {
   background-image: url("./images/afternoon_image.jpg");
-  color: rgb(237, 78, 99);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .eveningBG {
   background-image: url("./images/evening_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .nightBG {
   background-image: url("./images/night_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
